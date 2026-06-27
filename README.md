@@ -1,51 +1,3 @@
-# ici_template [This section can be removed in the submission version]
-This GitHub repository offers a template specifically designed to teach students how to write effective README.md files and create a well-organized file structure. The template provides clear instructions and examples, helping students to learn the basics of GitHub and how to create professional-looking repositories.
-
-
-# Project Title
-
-[Enter the title of your project]
-
-## Project Description
-
-[Enter a brief description of your project, including the data you used and the analytical methods you applied. Be sure to provide context for your project and explain why it is important.]
-
-## Getting Started
-
-[Provide instructions on how to get started with your project, including any necessary software or data. Include installation instructions and any prerequisites or dependencies that are required.]
-
-## File Structure
-
-[Describe the file structure of your project, including how the files are organized and what each file contains. Be sure to explain the purpose of each file and how they are related to one another.]
-
-## Analysis
-
-[Describe your analysis methods and include any visualizations or graphics that you used to present your findings. Explain the insights that you gained from your analysis and how they relate to your research question or problem statement.]
-
-## Results
-
-[Provide a summary of your findings and conclusions, including any recommendations or implications for future research. Be sure to explain how your results address your research question or problem statement.]
-
-## Contributors
-
-[List the contributors to your project and describe their roles and responsibilities.]
-
-## Acknowledgments
-
-[Thank any individuals or organizations who provided support or assistance during your project, including funding sources or data providers.]
-
-## References
-
-[List any references or resources that you used during your project, including data sources, analytical methods, and tools.]
-
-
-
-
-
-
-
-
-
 
 Public Service Visibility Paradox: Service Mismatches, Cascading Failures, and Public Service Priorities in SADC Countries
 
@@ -55,38 +7,6 @@ This project investigates whether the visible presence of public infrastructure 
 The study introduces the Public Service Visibility Paradox, which describes situations where public infrastructure is visibly present but households still report severe shortages of the corresponding service. Using Afrobarometer Round 9 survey data from sixteen SADC countries, the project examines whether visible public services reduce severe deprivation, whether service failures cascade across interconnected sectors, and which services should be prioritised under limited public resources.
 The empirical analysis combines descriptive statistics, visualisations, logistic regression, and Poisson regression to examine service visibility, service mismatches, cascading failures, urban–rural differences, governance comparisons, and public service priorities.
 
-Getting Started
-
-Software Requirements
-The project was developed using R.
-Recommended version:
-R version 4.3 or later
-
-Required R packages:
-dplyr
-tidyr
-readr
-haven
-ggplot2
-broom
-sandwich
-lmtest
-forcats
-purrr
-
-Install the required packages using:
-install.packages(c(
-  "dplyr",
-  "tidyr",
-  "readr",
-  "haven",
-  "ggplot2",
-  "broom",
-  "sandwich",
-  "lmtest",
-  "forcats",
-  "purrr"
-))
 
 Data
 
@@ -124,8 +44,7 @@ Public-Service-Visibility-Paradox/
 │   ├── Regression_Analyses.docx
 │   
 │
-└── presentation/
-    └── Final_Presentation.pdf
+└── 
 
 Chapter and File Contents
 
@@ -159,7 +78,7 @@ urban–rural location;
 country-level patterns.
 Severe shortages are defined using the strictest Afrobarometer response category: respondents reporting that they always went without the corresponding service.
 
-3. Descriptive Statistics and Visualisations
+2. Descriptive Statistics and Visualisations
 Descriptive analysis was used to examine:
 overall service mismatch rates;
 country-level comparisons;
@@ -168,7 +87,7 @@ service hotspot rankings;
 service presence versus severe shortages.
 Visualisations were prepared to communicate key patterns, including heatmaps, cascade diagrams, and public-service priority charts.
 
-5. Regression Analysis
+3. Regression Analysis
 Regression models were used to test the study hypotheses. The analysis includes:
 logistic regression models for binary severe-shortage and mismatch outcomes;
 Poisson regression models for the total number of severe shortages;
@@ -176,7 +95,7 @@ urban–rural comparison models;
 country-specific governance comparison models.
 The regression models evaluate whether visible infrastructure reduces severe shortages, whether service failures cascade across interconnected sectors, and which services should receive priority investment under limited public resources.
 
-7. Interpretation and Policy Discussion
+4. Interpretation and Policy Discussion
 The final stage interprets the findings in relation to public service delivery, governance, infrastructure planning, and resource allocation. The project distinguishes between:
 preventive services, which are associated with lower levels of severe deprivation; and
 transmission mechanisms, which signal broader public-service fragility.
